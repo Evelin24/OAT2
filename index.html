@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interface Responsiva com LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerenciador de Registros</h1>
+    </header>
+    <main>
+        <form id="registro-form">
+            <label for="registro">Novo Registro:</label>
+            <input type="text" id="registro" placeholder="Digite um registro..." required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <section id="registros-lista">
+            <h2>Registros Salvos:</h2>
+            <ul id="lista">
+                <!-- Exemplo de item de lista com botão estático para teste -->
+                <li>
+                    Registro Exemplo
+                    <button>Remover</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
